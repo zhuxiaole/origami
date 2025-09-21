@@ -75,16 +75,16 @@ mavenPublishing {
     signAllPublications()
 
     coordinates(
-        groupId = "tech.ryadom",
+        groupId = "org.zhuxiaole",
         artifactId = "origami",
-        version = "0.0.6"
+        version = "0.0.6-minSdk23"
     )
 
     pom {
         name.set("Origami")
         description.set("Simple image cropping tool for Compose Multiplatform")
         inceptionYear.set("2025")
-        url.set("https://github.com/ryadomtech/origami")
+        url.set("https://github.com/zhuxiaole/origami")
 
         licenses {
             license {
@@ -96,16 +96,16 @@ mavenPublishing {
 
         developers {
             developer {
-                id.set("adkozlovskiy")
-                name.set("Alexey Kozlovsky")
-                email.set("adkozlovskiy@gmail.com")
+                id.set("zhuxiaole")
+                name.set("Zhu Xiaole")
+                email.set("zhuxiaole@zhuxiaole.org")
             }
         }
 
         scm {
-            url.set("https://github.com/ryadomtech/origami")
-            connection.set("scm:git:git://github.com/ryadomtech/origami.git")
-            developerConnection.set("scm:git:ssh://git@github.com/ryadomtech/origami.git")
+            url.set("https://github.com/zhuxiaole/origami")
+            connection.set("scm:git:git://github.com/zhuxiaole/origami.git")
+            developerConnection.set("scm:git:ssh://git@github.com/zhuxiaole/origami.git")
         }
     }
 }
